@@ -16,8 +16,8 @@ from datetime import timedelta
 import json
 from safetensors.torch import load_file  #for loading .safetensors model weights
 
-video_model = load_model(r"models\video_model.h5")
-audio_model = load_model(r"models\audio_model.keras")
+video_model = load_model(r"models/video_model.h5")
+audio_model = load_model(r"models/audio_model.keras")
 
 #map of numerical predictions to emotion labels
 video_emotion_map = {
