@@ -1,0 +1,9 @@
+tensorflow
+torch  
+moviepy
+librosa
+opencv-python
+numpy
+matplotlib
+pandas
+srt
